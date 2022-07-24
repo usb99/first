@@ -1,0 +1,36 @@
+body{
+  margin: 0px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+h1{
+  font-size: 40px;
+  padding : 30px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+#main{
+  border-right: 1px solid white;
+  padding: 20px;
+}
+#sub{
+  padding: 20px;
+}
+@media(max-width:800px){
+  #main{
+    border: none;
+  }
+  #grid{
+    display: block;
+  }
+}
