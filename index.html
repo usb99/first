@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ko">
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -8,7 +9,7 @@
 		<!--fonts-->
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Lobster&family=Montserrat:wght@100&family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
-		<title>민석의 웹 사이트 (v2.0)</title>
+		<title>민석의 웹 사이트</title>
 	</head>
 	<body>
 		<!--표지-->
@@ -17,7 +18,7 @@
 			<!--메뉴-->
 			<div id="menuGrid">
 				<h2><a href="profile.html">Profile</a></h2>
-				<h2><div onclick="alert('구현중입니다\n자유 게시판')">Board</div></h2>
+				<h2><div onclick="alert('구현중입니다\n자유 게시판을 기대해 주세요!')">Board</div></h2>
 				<h2><a href="history.html">History</a></h2>
 			</div>
 			<!--메뉴2-->
@@ -28,13 +29,35 @@
 
 		<!--메뉴-->
 		<div id="infoGrid">
-			미완성 사이트(v2.0)
+			<div>미완성 사이트(v2.0 BETA2)</div>
+			<div style="text-align:right;">beta</div>
 		</div>
 		<!--본문-->
 		<div id="article">
 			환영합니다<br><br>
-			아직 공사중인 사이트 입니다<br>
-			보기 방식은 컴퓨터에 최적화 되어 있습니다!<br>
+			아직 <strong><div style="color:red;display:inline;">공사중</div></strong>인 사이트 입니다<br>
+			보기 방식은 컴퓨터에 최적화 되어 있습니다!<br><br><br>
+			<div style="display:grid;grid-template-columns:1fr 1fr;">
+				<div>
+					추가 예정 목록
+					<ul class="listStyleNone" style="font-size:17px;color:gray;">
+						<li>자유 게시판 설치</li>
+						<li>댓글 기능</li>
+						<li>모바일 전용 사이트 개설</li>
+						<li>로그인 구현</li>
+						<li>관리자 부여</li>
+						<li>관리자 전용 기능 (게시물 관리 등등)</li>
+						<li>나만의 블로그</li>
+					</ul>
+				</div>
+				<div>
+					앞으로의 계획
+					<ul class="listStyleNone" style="font-size:17px;color:gray;">
+						<li>서버 이전(거의 불가능)</li>
+						<li>화려한 애니메이션과 새로운 디자인을 넣은 v3.0</li>
+					</ul>
+				</div>
+			</div>
 			<img src="img/main-article-img.png" alt="사진을 불러올 수 없음">
 		</div>
 	</body>
